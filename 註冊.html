@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        <form method="post" action="rs.php">
+        帳號：<input type="text" name="id">
+        <br>
+        性別：<input type="radio" name="sex" value="M" checked>男
+              <input type="radio" name="sex" value="F">女
+        <br>
+        興趣：<input type="checkbox" name="interest" value="tv">看電視
+              <input type="checkbox" name="interest" value="movie" checked>電影
+              <input type="checkbox" name="interest" value="bike">騎車
+        <br>
+        居住地：<select name="county">
+               <option value="taoyuan">桃園</option>
+               <option value="hsincju" selected>新竹</option>
+               <option value="miaoli">苗栗</option>
+        </select>
+        <br>
+        自傳：<br>
+        <textarea name="autobiography" rows="10" cols="50"></textarea>
+        <br>
+        <input type="submit" value="註冊">
+        <input type="reset" value="清除">
+        </form>
+    </body>
+</html>
